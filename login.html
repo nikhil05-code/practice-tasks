@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+        <div style="background-image: url('newyork.jpg');">
+        <center>
+            <br><br><br><br><br><br>
+                <form>
+                    <label><font color="#F9E79F"><b> Username: </b></font></label>
+                    <input type="text" name="name" id="username" style="transition-property: unset;"><br><br>
+                    <label><font color="#F9E79F"><b> Password:  </b></font></label>
+                    <input type="password" name="password" id="password"><br><br>
+                </form>
+                <a class="button" onclick="myFunction()">Submit</a>
+        <style>
+            .button {
+  background-color: #E67E22;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+        </style>            
+            
+        
+        <script>
+              function myFunction() {
+                var x,y;
+                x=document.getElementById("username").value
+                y=document.getElementById("password").value
+                if (x=="nikhil" && y=="qwerty")
+                {
+                    window.open("login.png");
+                }
+                else
+                {
+                    window.open("404error.jpg");
+                }
+            }
+        </script>
+        </center>
+        <br> <br> <br> <br> <br> <br> <br> <br>
+        <br><br> <br> <br> <br> <br> <br> <br> <br>
+        <br> <br> <br> <br> <br> 
+    </div>
+</html>
